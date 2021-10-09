@@ -340,12 +340,37 @@ h3 {
   align-items: center;
   padding-top: 50px;
 }
-.engagemant .item {
-  display: block;
-  width: calc((100% - 60px) / 3);
-}
+
 .engagemant .item + .item {
   margin-left: 30px;
+}
+
+.engagemant .item {
+  position: relative;
+}
+
+.engagemant .shadow {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: white;
+}
+
+.shadow-desciption {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white);
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 /* Наша команда */
