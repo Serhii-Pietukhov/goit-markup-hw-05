@@ -40,7 +40,6 @@ img {
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
-  /* outline: 2px solid tomato; */
 }
 .no-gap {
   display: block;
